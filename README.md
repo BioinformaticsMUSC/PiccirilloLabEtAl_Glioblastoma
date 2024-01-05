@@ -1,6 +1,5 @@
 # PiccirilloEtAl_Glioblastoma
-scRNAseq Data Analysis Code
-The Tumor Microenvironment Analysis of Human Glioblastoma and the Sub-Ventricular Zone
+scRNAseq Data Analysis Code - The Tumor Microenvironment Analysis of Human Glioblastoma and the Sub-Ventricular Zone
 ==========================
 This repository contains analysis code for the single cell RNA-seq project carried out by researchers at the [Sara G.M. Piccirillo, UNM]() and [Berto Lab, MUSC](https://bertolab.org/)
 

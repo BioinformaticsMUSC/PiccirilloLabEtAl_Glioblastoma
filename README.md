@@ -24,10 +24,9 @@ Here a webapp to analyze the data:
 
 | directory | contents | code |
 | --------- | -------- | -------- |
-| [`InputData`](InputData/) | Input data of the initial processing and quality check. | 01_Downstream_Analysis_SCT.r|
-| [`Initial_Clustering`](Initial_Clustering/) | Output data of the initial clustering and integration. | 01_Downstream_Analysis_SCT.r \ 02_Initial_Markers_Detection.r|
-| [`Final_Reclustering`](output_reclust/) | Output data of the reclustering and subset analyses. | 03_Recluster_NoGlut.r \ 04_Doubletting.r \ 05_Markers_Detection_NoGlut.r \ 06_Relabel_And_InitialViz.r|
-| [`output_dge`](output_dge/) | Output data of the DGE analyses. | 07_Differential_Expression.r |
-| [`output_figures`](output_figures/) | Output for figures and additional visualizations. | 08_DGE_visualizations.r |
-| [`shinyApp`](shinyApp/) | Output of the ShinyApp. | 09_ShinyApp.r|
+| [`InputData`](InputData/) | Input data of the initial processing and quality check. ||
+| [`Initial_Clustering`](Initial_Clustering/) | Code and Output data of the initial clustering and integration. | 01_Seurat_Clustering_Nsvz.R \ 02_Seurat_Clustering_TM.R \ 03_Seurat_Clustering_Tsvz.R \ 04_Doubletting_Nsvz.R \ 05_Doubletting_TM.R \ 06_Doubletting_Tsvz.R \ 07_CellCycleScore.R \ 08_FindMarkers.R \ 09_InferCNV_Tsvz.R \ 10_InferCNV_TM \ 11_EnrichmentPlot.R |
+| [`Final_Labelling`](output_reclust/) | Code and Output data of the Final Labelling | 12_Relable_Nsvz.R \ 13_Relable_TM.R \ 14_Relable_Tsvz.R |
+| [`DGE`](output_dge/) | Output data of the DGE analyses. |  |
+| [`ShinyApp`](ShinyApp/) | Output of the ShinyApp. | |
 

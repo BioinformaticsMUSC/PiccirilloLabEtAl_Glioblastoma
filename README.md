@@ -3,6 +3,9 @@ scRNAseq Data Analysis Code - The Tumor Microenvironment Analysis of Human Gliob
 ==========================
 This repository contains analysis code for the single cell RNA-seq project carried out by researchers at the [Sara G.M. Piccirillo, UNM]() and [Berto Lab, MUSC](https://bertolab.org/)
 
+Glioblastoma (GBM) clinical management is challenging due to its heterogeneous nature, invasive potential, and poor response to radio- and chemo-therapy. As a result, GBM inevitably recurs and only a minority of patients survive 5 years post-diagnosis. We were the first to show that in the majority of GBM patients, the sub-ventricular zone (SVZ) of the lateral ventricles is a reservoir of cancer stem-like cells (CSCs) that show distinct patterns of treatment resistance when compared to matched CSCs from the tumor mass and contribute to the seeding of the recurrent tumor. However, the sampling and the characterization of the SVZ in GBM patients pose several challenges, as this area is extremely small and needs to be objectively identified during tumor surgical resection.
+
+To overcome this challenge, by using our fluorescence-guided multiple sampling scheme, we built a single-nucleus RNA-sequencing-based microenvironment landscape of the SVZ in GBM patients (T_SVZ). By performing a systematic comparison with tumor mass (T_Mass) samples isolated from the same patients and using two histologically normal SVZ (N_SVZ) samples through a number of computational tools and experimental methods, we identified novel therapeutic vulnerabilities in the T_SVZ of GBM patients.
 ## Cite this
 
 If you use anything in this repository please cite the following publication:

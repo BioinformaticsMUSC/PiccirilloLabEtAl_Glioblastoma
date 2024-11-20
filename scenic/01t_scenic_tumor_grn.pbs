@@ -1,0 +1,10 @@
+#PBS -N scenic_tumor_grn
+#PBS -l select=1:ncpus=20:mem=250gb,walltime=48:00:00
+#PBS -q musc3_cpu
+#PBS -m abe
+#PBS -M grangerb@musc.edu
+
+singularity run -B /zfs/musc3/Sara/scenic:/data --pwd /data /zfs/musc3/singularity_images/misc_tools/pyscenic_0.12.1.sif \
+	pyscenic grn \
+	pyscenic_tumor.loom allTFs_hg38.txt \
+	-o adj_tumor.csv

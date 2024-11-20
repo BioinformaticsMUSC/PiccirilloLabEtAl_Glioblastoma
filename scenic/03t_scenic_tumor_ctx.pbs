@@ -1,0 +1,15 @@
+#PBS -N scenic_tumor_ctx
+#PBS -l select=1:ncpus=20:mem=250gb,walltime=48:00:00
+#PBS -q musc3_cpu
+#PBS -m abe
+#PBS -M grangerb@musc.edu
+
+singularity run -B /zfs/musc3/Sara/scenic:/data --pwd /data /zfs/musc3/singularity_images/misc_tools/pyscenic_0.12.1.sif \
+	pyscenic ctx \
+	hg38_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather \
+	hg38_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather \
+	--annotations_fname motifs-v10nr_clust-nr.hgnc-m0.001-o0.0.tbl \
+	--expression_mtx_fname pyscenic_tumor.loom \
+	--output regulome_tumor.csv \
+	--mask_dropouts \
+	--num_workers 32

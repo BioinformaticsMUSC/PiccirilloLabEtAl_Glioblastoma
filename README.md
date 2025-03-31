@@ -12,7 +12,8 @@ To overcome this challenge, by using our fluorescence-guided multiple sampling s
 
 If you use anything in this repository please cite the following publication:
 
-Pre-print URL: 
+Paper URL: 
+https://www.cell.com/cell-reports/fulltext/S2211-1247(24)01500-6
 
 ## Access the data with an app:
 
